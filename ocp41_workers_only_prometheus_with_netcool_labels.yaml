@@ -15,7 +15,7 @@ items:
       prometheus: kube-prometheus
       release: kube-prometheus
     name: kube-prometheus
-    namespace: monitoring
+    namespace: default
     resourceVersion: "13922855"
     selfLink: /apis/monitoring.coreos.com/v1/namespaces/monitoring/prometheusrules/kube-prometheus
     uid: 1c718fc4-b8f9-11e9-be96-f25fe3364e4a
@@ -83,7 +83,7 @@ items:
       prometheus: kube-prometheus
       release: kube-prometheus
     name: kube-prometheus-alertmanager
-    namespace: monitoring
+    namespace: default
     resourceVersion: "13922857"
     selfLink: /apis/monitoring.coreos.com/v1/namespaces/monitoring/prometheusrules/kube-prometheus-alertmanager
     uid: 1c468e86-b8f9-11e9-be96-f25fe3364e4a
@@ -143,7 +143,7 @@ items:
       prometheus: kube-prometheus
       release: kube-prometheus
     name: kube-prometheus-exporter-kube-controller-manager
-    namespace: monitoring
+    namespace: default
     resourceVersion: "13922860"
     selfLink: /apis/monitoring.coreos.com/v1/namespaces/monitoring/prometheusrules/kube-prometheus-exporter-kube-controller-manager
     uid: 1c4bf239-b8f9-11e9-be96-f25fe3364e4a
@@ -178,7 +178,7 @@ items:
       prometheus: kube-prometheus
       release: kube-prometheus
     name: kube-prometheus-exporter-kube-etcd
-    namespace: monitoring
+    namespace: default
     resourceVersion: "13922865"
     selfLink: /apis/monitoring.coreos.com/v1/namespaces/monitoring/prometheusrules/kube-prometheus-exporter-kube-etcd
     uid: 1c5076cc-b8f9-11e9-be96-f25fe3364e4a
@@ -352,7 +352,7 @@ items:
       prometheus: kube-prometheus
       release: kube-prometheus
     name: kube-prometheus-exporter-kube-scheduler
-    namespace: monitoring
+    namespace: default
     resourceVersion: "13922870"
     selfLink: /apis/monitoring.coreos.com/v1/namespaces/monitoring/prometheusrules/kube-prometheus-exporter-kube-scheduler
     uid: 1c539d06-b8f9-11e9-be96-f25fe3364e4a
@@ -432,7 +432,7 @@ items:
       prometheus: kube-prometheus
       release: kube-prometheus
     name: kube-prometheus-exporter-kube-state
-    namespace: monitoring
+    namespace: default
     resourceVersion: "13922872"
     selfLink: /apis/monitoring.coreos.com/v1/namespaces/monitoring/prometheusrules/kube-prometheus-exporter-kube-state
     uid: 1c58e2f0-b8f9-11e9-be96-f25fe3364e4a
@@ -523,7 +523,7 @@ items:
       prometheus: kube-prometheus
       release: kube-prometheus
     name: kube-prometheus-exporter-kubelets
-    namespace: monitoring
+    namespace: default
     resourceVersion: "13922875"
     selfLink: /apis/monitoring.coreos.com/v1/namespaces/monitoring/prometheusrules/kube-prometheus-exporter-kubelets
     uid: 1c5c435c-b8f9-11e9-be96-f25fe3364e4a
@@ -602,7 +602,7 @@ items:
       prometheus: kube-prometheus
       release: kube-prometheus
     name: kube-prometheus-exporter-kubernetes
-    namespace: monitoring
+    namespace: default
     resourceVersion: "13922880"
     selfLink: /apis/monitoring.coreos.com/v1/namespaces/monitoring/prometheusrules/kube-prometheus-exporter-kubernetes
     uid: 1c5f5bd4-b8f9-11e9-be96-f25fe3364e4a
@@ -744,7 +744,7 @@ items:
       prometheus: kube-prometheus
       release: kube-prometheus
     name: kube-prometheus-exporter-node
-    namespace: monitoring
+    namespace: default
     resourceVersion: "13922882"
     selfLink: /apis/monitoring.coreos.com/v1/namespaces/monitoring/prometheusrules/kube-prometheus-exporter-node
     uid: 1c67b4fe-b8f9-11e9-be96-f25fe3364e4a
@@ -818,7 +818,7 @@ items:
       prometheus: kube-prometheus
       release: kube-prometheus
     name: kube-prometheus-rules
-    namespace: monitoring
+    namespace: default
     resourceVersion: "13922885"
     selfLink: /apis/monitoring.coreos.com/v1/namespaces/monitoring/prometheusrules/kube-prometheus-rules
     uid: 1c6d4ca5-b8f9-11e9-be96-f25fe3364e4a
@@ -955,7 +955,7 @@ items:
       release: kube-prometheus
       role: alert-rules
     name: prometheus-example-rules
-    namespace: monitoring
+    namespace: default
     resourceVersion: "13922890"
     selfLink: /apis/monitoring.coreos.com/v1/namespaces/monitoring/prometheusrules/prometheus-example-rules
     uid: 28f1d3fa-c003-11e9-be96-f25fe3364e4a
